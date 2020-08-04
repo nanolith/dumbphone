@@ -1,4 +1,4 @@
-"dumb" phone
+"Dumb" phone
 ------------
 
 The "dumb" phone project is my attempt to build a simple cellular phone from an
