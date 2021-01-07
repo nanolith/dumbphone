@@ -16,4 +16,4 @@ between processes.  Any supervisor specific lifting is performed by this
 microkernel, but everything else happens in user space.
 
 This project will run on a KE04 with a limited subset of features and safety, or
-a Kinetis K28 with full features and safety.
+a Kinetis K8x with full features and safety.
