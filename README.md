@@ -13,7 +13,8 @@ processes.  This isn't the most performant setup, but it provides a high degree
 of process isolation, which ensures better stability and security.  The OS
 consists of a simple microkernel that can pass messages and notifications
 between processes.  Any supervisor specific lifting is performed by this
-microkernel, but everything else happens in user space.
+microkernel, but everything else happens in user space.  The OS and support
+drivers are written in model checked C.
 
 This project will run on a KE04 with a limited subset of features and safety, or
 a Kinetis K8x with full features and safety.
