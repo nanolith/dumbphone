@@ -16,5 +16,4 @@ between processes.  Any supervisor specific lifting is performed by this
 microkernel, but everything else happens in user space.  The OS and support
 drivers are written in model checked C.
 
-This project will run on a KE04 with a limited subset of features and safety, or
-a Kinetis K8x with full features and safety.
+This project will run on a KL82 low power microcontroller.
